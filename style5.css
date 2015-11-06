@@ -1,0 +1,25 @@
+table {
+	width: 100%;
+	border: 1px solid #ccc;
+	text-align: left;
+	border-collapse: collapse;
+}
+
+th, td {
+	border: 1px solid #ccc;
+	padding: 8px;
+}
+
+th {
+	background-color:#333;
+	color: #fff;
+	font-weight: bold;
+}
+
+tbody tr:nth-child(odd) {
+	background-color: green;
+}
+
+.highlight{
+	background: blue!important;
+}
