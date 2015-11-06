@@ -1,0 +1,24 @@
+ul {
+   list-style-image: url(longzhu.png);
+}
+ ul {  list-style-image: url(douyu.png);
+ }
+  ul{ list-style-image: url(panda.png);
+   }
+
+[href="http://www.longzhu.com"] {
+    background-color: red;
+    }  
+[href="http://www.douyutv.com"] {
+    background-color: green;
+    }
+[href="http://www.panda.tv"] {
+    background-color: yellow;
+    }
+a:link{text-decoration: none;}
+a:visitde{text-decoration: none;}
+a:hover{text-decoration: underline;}
+a:active{text-decoration: underline;}
+body {
+    background: url(VV.png);
+}
