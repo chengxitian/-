@@ -6,7 +6,7 @@ $(document).ready(function () {
 		     $('#txtbox').addClass('warning');
 		else
 		{
-			$('#txtbox').removeCalass('warning');
+			$('#txtbox').removeClass('warning');
 			alert('恭喜你，字符串合法！');
 		}	 
 	})
