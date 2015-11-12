@@ -1,5 +1,5 @@
 $(document).ready(function () {
-	$("#btn-1").click(function () {
-		alert($("#link").arrt("href"));
+	$("#btn").click(function () {
+		alert($("#link").attr("href"));
 	});
 });

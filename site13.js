@@ -8,9 +8,9 @@ $(document).ready(function () {
 		var number = tr.children('.number');
 		number.text('12345');
 		var name = tr.children('.name');
-		name.tect('blablabla');
+		name.text('blablabla');
 		var tel = tr('tel');
-		tel.atte('href', 'tel:110');
+		tel.attr('href', 'tel:110');
 		tel.text('110');
 	});
 });
